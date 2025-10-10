@@ -1,12 +1,54 @@
-# React + Vite
+<div style="display: flex; justify-content: center; item-align: center">
+    <img src="public/hero.png">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Moviezy
 
-Currently, two official plugins are available:
+A modern React application built with Vite for exploring and discovering movies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Browse popular movies
+- Search for specific movies
+- Responsive design for all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React 19
+- Vite
+- Tailwind CSS
+- Appwrite
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Create a `.env` file in the root directory with the following variables:
+    ```bash
+    VITE_APPWRITE_URL=your_appwrite_url
+    VITE_APPWRITE_PROJECT_ID=your_project_id
+    VITE_APPWRITE_DATABASE_ID=your_database_id
+    VITE_APPWRITE_COLLECTION_ID=your_collection_id
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
