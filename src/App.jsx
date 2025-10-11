@@ -57,7 +57,7 @@ function App() {
         await updateSearchCount(query, data.results[0])
       }
     } catch (error) {
-      setErrorMessage('Error fetching movies. Please try again later.')
+      setErrorMessage('Error fetching movies:', error)
     } finally {
       setIsLoading(false)
     }
