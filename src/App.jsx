@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useDebounce } from 'react-use'
 import Search from './components/Search.jsx'
 import Spinner from './components/Spinner.jsx'
